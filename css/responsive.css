@@ -1,0 +1,147 @@
+@media only screen and (max-width:1200px){
+.main-text{
+  margin-top: 5%;
+}
+.f-111{
+  font-size: 80px;
+}
+.nav-link{
+    
+  white-space: nowrap !important;
+}
+}
+@media only screen and (max-width:1024px){
+  .f-16-2{
+    font-size: 14px !important;
+    white-space: nowrap;
+    margin-left: 10px;
+  }
+  .how-to-work{
+    height: 100%;
+  }
+
+}
+@media only screen and (max-width:991px){
+  .no-display-2{
+    display: block;
+  }
+  .no-display{
+    display: none !important;
+  }
+    .f-111{
+        font-size: 80px;
+    }
+    .nav-link{
+        text-align: left;
+        color: white !important;
+        white-space: nowrap !important;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 40px;
+        background-color:#002A33 ;
+        width: 92.5%;
+        z-index: 100;
+        color: black !important;
+        padding: 20px 10px;
+      }
+      .section-2-img img{
+        display: none;
+      }
+      .section-2{
+        border-radius: 35px ;
+      }
+      .section-2-text{
+        width: 100% !important;
+      }
+      .instructor{
+        height: 100%;
+        padding: 70px 10px;
+      }
+      .smt{
+        margin-top: 30px;
+      }
+      .wd-100{
+        width: 90px !important;
+    }
+    .wd-220{
+        width: 200px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    .f-111{
+        font-size: 60px;
+    }
+    .f-24{
+        font-size: 18px;
+    }
+    .input{
+        width: 400px;
+    }
+    .main-text{
+      margin-top: 12%;
+    }
+
+}
+@media only screen and (max-width:493px){
+    .f-111{
+        font-size: 40px;
+    }
+    .f-24{
+        font-size: 14px;
+    }
+    .f-18{
+      text-align: justify;
+    }
+    .input{
+        width: 300px;
+        height: 50px;
+    }
+    .yellow-btn{
+      height: 40px;
+    }
+    .input button{
+    width: 100px;
+    white-space: nowrap;
+    border-radius: 7px;
+    }
+    .input input{
+       width: 70%;
+    }
+    .main-text{
+        margin-top: 30%;
+    }
+    .f-54{
+    font-size: 35px;
+    }
+    .section-2{
+        
+        padding:35px;
+      }
+      .options-list{
+        flex-direction: column;
+      }
+      .options-list--element{
+        margin: 5px;
+      }
+}
+@media only screen and (max-width:380px){
+   .f-16{
+    font-size: 16px !important;
+   }
+   .yellow-btn{
+    width: 130px;
+   }
+   .f-16-2
+   {
+    font-size: 12px !important;
+   }
+   .sign-input input{
+   
+    width: 290px;
+  }
+  .sign-btn{
+    height: 51px;
+    width: 290px;
+  }
+}

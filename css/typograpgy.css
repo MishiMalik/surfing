@@ -1,0 +1,91 @@
+.f-18{
+    font-size: 18px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-24{
+    font-size: 24px;
+}
+.f-22{
+    font-size: 22px;
+}
+.f-111{
+    color: #FFFFFF;
+    text-shadow: 0px 3px 20px #00000073;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 111px;
+    font-family:'Poppins';
+    font-weight: 700;
+}
+.f-30{
+    font-size: 30px;
+}
+.f-45{
+    font-size: 45px;
+}
+.f-54{
+    letter-spacing: 0px;
+color: #111A1C;
+text-transform: capitalize;
+opacity: 1;
+font-size: 54px;
+font-weight: 700 !important;
+font-family: 'Poppins';
+}
+.f-60{
+    font-size: 60px;
+}
+.f-16-2{
+    font-size: 16px !important;
+}
+.f-20{
+    font-size: 20px;
+}
+
+
+/* colors */
+.yellow{
+    color: #EEBF79;
+}
+
+.f-32{
+    font-size: 32px !important;
+}
+
+.w-600{
+    font-weight: 600 !important;
+}
+.w-700{
+    font-weight: 700 !important;
+}
+.w-300{
+    font-weight: 300 !important;
+    opacity: 46%;
+}
+.light-gray{
+    color:  #111A1C !important;
+    opacity: 46%;
+}
+.light-gray-2{
+    color: #959595 !important;
+}
+.text-justify{
+    text-align: justify;
+}
+.nmt-20{
+    margin-top: -14px;
+}
+.no-decoration{
+    text-decoration: none;
+}
+.font-poppins{
+    font-family: 'Poppins';
+}
+.wd-100{
+    width: 100px !important;
+}
+.wd-220{
+    width: 220px !important;
+}
