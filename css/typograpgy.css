@@ -43,7 +43,12 @@ font-family: 'Poppins';
 .f-20{
     font-size: 20px;
 }
-
+.f-39{
+    font-size: 39px;
+}
+.f-19{
+    font-size: 19px;
+}
 
 /* colors */
 .yellow{
@@ -65,8 +70,8 @@ font-family: 'Poppins';
     opacity: 46%;
 }
 .light-gray{
-    color:  #111A1C !important;
-    opacity: 46%;
+    color:  rgba(17, 26, 28, 0.46) !important;
+    /* opacity: 46%; */
 }
 .light-gray-2{
     color: #959595 !important;
@@ -76,6 +81,11 @@ font-family: 'Poppins';
 }
 .nmt-20{
     margin-top: -14px;
+}
+.nmt-90{
+    margin-top: -90px;
+    position: relative;
+    z-index: 10;
 }
 .no-decoration{
     text-decoration: none;

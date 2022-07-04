@@ -81,7 +81,20 @@
     .main-text{
       margin-top: 12%;
     }
-
+   .profile-data{
+    flex-direction: column;
+   }
+   .main-text-2{
+    position: absolute;
+    bottom: 100px;
+    right: 30%;
+}
+.profile-nav{
+  margin-top: 10px !important;
+}
+.profile-small{
+  margin-left: 15px;
+}
 }
 @media only screen and (max-width:493px){
     .f-111{
@@ -124,6 +137,23 @@
       .options-list--element{
         margin: 5px;
       }
+      .profile-large{
+        height: 123px;
+        width: 123px;
+        border-radius: 100%;
+        border: 3px solid #EEBF79;
+    }
+    .f-39{
+      font-size: 29px;
+    }
+    .tab button{
+      font-size: 15px;
+      padding: 14px 25px;
+    }
+    .profile-card{
+      padding:30px 20px !important;
+    }
+    
 }
 @media only screen and (max-width:380px){
    .f-16{
