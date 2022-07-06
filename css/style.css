@@ -4,6 +4,110 @@ body{
     background-color: #F6F6F6;
 }
 /* *********************************************************************
+                 Typography
+*********************************************************************** */
+.f-18{
+  font-size: 18px;
+}
+.f-16{
+  font-size: 16px;
+}
+.f-24{
+  font-size: 24px;
+}
+.f-22{
+  font-size: 22px;
+}
+.f-111{
+  color: #FFFFFF;
+  text-shadow: 0px 3px 20px #00000073;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 111px;
+  font-family:'Poppins';
+  font-weight: 700;
+}
+.f-30{
+  font-size: 30px;
+}
+.f-45{
+  font-size: 45px;
+}
+.f-54{
+  letter-spacing: 0px;
+color: #111A1C;
+text-transform: capitalize;
+opacity: 1;
+font-size: 54px;
+font-weight: 700 !important;
+font-family: 'Poppins';
+}
+.f-60{
+  font-size: 60px;
+}
+.f-16-2{
+  font-size: 16px !important;
+}
+.f-20{
+  font-size: 20px;
+}
+.f-39{
+  font-size: 39px;
+}
+.f-19{
+  font-size: 19px;
+}
+
+/* colors */
+.yellow{
+  color: #EEBF79;
+}
+
+.f-32{
+  font-size: 32px !important;
+}
+
+.w-600{
+  font-weight: 600 !important;
+}
+.w-700{
+  font-weight: 700 !important;
+}
+.w-300{
+  font-weight: 300 !important;
+  opacity: 46%;
+}
+.light-gray{
+  color:  rgba(17, 26, 28, 0.46) !important;
+  /* opacity: 46%; */
+}
+.light-gray-2{
+  color: #959595 !important;
+}
+.text-justify{
+  text-align: justify;
+}
+.nmt-20{
+  margin-top: -14px;
+}
+.nmt-90{
+  margin-top: -90px;
+  position: relative;
+  z-index: 10;
+}
+.no-decoration{
+  text-decoration: none;
+}
+.font-poppins{
+  font-family: 'Poppins';
+}
+.wd-100{
+  width: 100px !important;
+}
+.wd-220{
+  width: 220px !important;
+}
+/* *********************************************************************
                   Header Home
 *********************************************************************** */
 .header-home{
@@ -409,14 +513,16 @@ padding: 8px 30px !important;
     position: relative;
   }
   .sign-input input{
-    background-color: white;
     background-color: #FFFFFF;
     border-radius: 11px;
     border: none !important;
     padding: 12px 40px;
     font-size: 16px;
-    color: #002A3300;
+    color: black !important;
     width: 330px;
+  }
+  input{
+    color: black !important;
   }
   .sign-input input::placeholder{
     color:  #111A1C !important;
