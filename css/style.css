@@ -10,7 +10,7 @@ body{
     height: 100vh;
     background-image:
      radial-gradient(closest-side at 50% 50%, #002A3300 0%, #002A33 100%),
-     url('../images/Component\ 1\ –\ 1.png');
+     url('../images/home.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
