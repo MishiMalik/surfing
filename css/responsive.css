@@ -22,6 +22,12 @@
 
 }
 @media only screen and (max-width:991px){
+  .sm-display{
+    display: flex !important;
+  }
+  .mts{
+    margin-top: 50px !important;
+  }
   .no-display-2{
     display: block;
   }
@@ -38,7 +44,8 @@
     }
     .navbar-collapse{
         position: absolute;
-        top: 40px;
+        top: 70px;
+        left: 15px;
         background-color:#002A33 ;
         width: 92.5%;
         z-index: 100;

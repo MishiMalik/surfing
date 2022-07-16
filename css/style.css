@@ -341,7 +341,7 @@ login page
     width: 100%;
 }
 .side-bar{
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: column;
 }
@@ -376,7 +376,13 @@ padding: 8px 30px !important;
     font-weight: 600;
     color: white;
   }
-  .active-side{
+  .menu a{
+    color: white !important;
+  }
+  .menu a:hover{
+    color: black !important;
+  }
+  .active-side a{
     color: black !important;
   }
   .active-side,
@@ -554,4 +560,7 @@ opacity: 100%;
     background-color: #F6F6F6 !important;
     padding: 10px 15px !important;
     margin-top: 5px !important;
+}
+.sm-display{
+  display: none !important;
 }
