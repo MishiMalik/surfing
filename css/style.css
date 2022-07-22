@@ -26,6 +26,9 @@ padding-right: 12px !important;
 .active{
     color:#EEBF79 !important ;
 }
+.nav-link:hover{
+  color:#EEBF79 !important ;
+}
 .nav-btn{
 border: 1px solid #EEBF79;
 border-radius: 16px;
@@ -186,21 +189,33 @@ display: none;
     background-image:
     linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
      url('../images/Mask\ Group\ 6.png'); 
+     background-position: top;
+     background-size: cover;
+    width: 100%;
 }
 .carouswl-card-img-2{
     background-image:
     linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
      url('../images/Mask\ Group\ 7.png'); 
+     background-position: top;
+     background-size: cover;
+     width: 100%;
 }
 .carouswl-card-img-3{
     background-image:
     linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
      url('../images/Mask\ Group\ 8.png'); 
+     background-position: top;
+     background-size: cover;
+     width: 100%;
 }
 .carouswl-card-img-4{
     background-image:
     linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
      url('../images/Mask\ Group\ 6.png'); 
+     background-position: top;
+     background-size: cover;
+     width: 100%;
 }
 /* section 5 */
 .how-to-work{
