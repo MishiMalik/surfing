@@ -29,6 +29,10 @@ padding-right: 12px !important;
 .nav-link:hover{
   color:#EEBF79 !important ;
 }
+.dropdown-btn{
+  background-color: transparent;
+  border: none;
+}
 .nav-btn{
 border: 1px solid #EEBF79;
 border-radius: 16px;
@@ -578,4 +582,19 @@ opacity: 100%;
 }
 .sm-display{
   display: none !important;
+}
+
+.user-input {
+  border: none !important;
+  font-size: 18px;
+  color: black;
+  padding:10px 20px;
+  border-radius: 7px;
+  background-color:#F6F6F6;
+}
+.user-input:focus{
+  outline: none;
+}
+.user-input::placeholder{
+  color: black;
 }
