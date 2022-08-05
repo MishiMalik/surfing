@@ -184,43 +184,41 @@ display: none;
     justify-content: center;
     border-radius: 36px;
     color: white !important;
+    position: relative;
 }
 .star{
     height: 14px !important;
     width: 14px !important;
 }
-.carouswl-card-img-1{
-    background-image:
-    linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
-     url('../images/Mask\ Group\ 6.png'); 
-     background-position: top;
-     background-size: cover;
-    width: 100%;
+.carousel-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 1;
+  border-radius: 36px;
+  width: 100%;
 }
-.carouswl-card-img-2{
-    background-image:
-    linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
-     url('../images/Mask\ Group\ 7.png'); 
-     background-position: top;
-     background-size: cover;
-     width: 100%;
+.carousel-layout{
+  background:linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%); 
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  overflow: hidden;
+  border-radius: 36px;
 }
-.carouswl-card-img-3{
-    background-image:
-    linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
-     url('../images/Mask\ Group\ 8.png'); 
-     background-position: top;
-     background-size: cover;
-     width: 100%;
+.carousel-card--text{
+  position: relative;
+  z-index: 3;
 }
-.carouswl-card-img-4{
-    background-image:
-    linear-gradient(180deg, rgba(1, 41, 50, 0) 40.5%, rgba(1, 41, 50, 0.839) 79.23%, #012932 100%),
-     url('../images/Mask\ Group\ 6.png'); 
-     background-position: top;
-     background-size: cover;
-     width: 100%;
-}
+
+
 /* section 5 */
 .how-to-work{
     background-image:linear-gradient(359.86deg, #F6F6F6 0.07%, rgba(246, 246, 246, 0) 84.57%),
@@ -433,6 +431,24 @@ padding: 8px 30px !important;
   .sign-input{
     position: relative;
   }
+  .sign-input-otp{
+    display: flex;
+  }
+  .sign-input-otp input{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 11px;
+    border: none !important;
+    padding: 12px 10px;
+    color: black !important;
+    width: 40px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
   .sign-input input{
     background-color: #FFFFFF;
     border-radius: 11px;
@@ -597,4 +613,30 @@ opacity: 100%;
 }
 .user-input::placeholder{
   color: black;
+}
+.modal-content{
+  position: relative;
+}
+.btn-close{
+  position: absolute;
+  top: 0px;
+  right:0px;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow:3px 3px 3px #002A33;
+  padding: 5px !important;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  z-index: 100000;
+}
+.sign-btn-popup{
+  background-color: #EEBF79;
+  border: none;
+  border-radius: 11px;
+  padding: 7px 20px;
+}
+.modal-body img{
+height: 200px;
+width: auto;
 }
