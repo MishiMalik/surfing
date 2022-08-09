@@ -612,7 +612,7 @@ opacity: 100%;
   outline: none;
 }
 .user-input::placeholder{
-  color: black;
+  color: rgb(94, 92, 92);
 }
 .modal-content{
   position: relative;
