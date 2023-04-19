@@ -735,6 +735,9 @@ input[type=radio]:checked~.check::before {
   font-size: 30px;
   font-weight: 600;
 }
+.wizard-form-footer{
+  background-color: #212529;
+}
 @media screen and (max-width: 992px) {
   .container {
     width: calc(100% - 40px);
