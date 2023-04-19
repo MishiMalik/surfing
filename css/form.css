@@ -1,0 +1,160 @@
+.header-form{
+    height: 300px;
+    background-color: #002A33;
+    /* background-image:
+     linear-gradient(to right , #002A3300 0%, #002A33 100%),
+     url('../images/lessons.jpg') !important;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover; */
+}
+.tab-title{
+    background-color: #EEBF79;
+    padding: 20px 0px;
+}
+.tab-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.code-row{
+    background-color: rgba(149, 149, 149, 0.05);
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(149, 149, 149, 0.329);
+}
+.form-wizard-input{
+    background-color: white !important;
+    border-radius: 3px !important;
+    font-size: 14px !important;
+    padding: 10px 15px !important; 
+    border: 1px solid #ebebeb !important;
+    font-weight: 500 !important;
+    height: auto !important;
+}
+.form-wizard-label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.date-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.form-wizard-input option{
+    padding: 10px 0px !important;
+}
+.actions ul li a{
+    width: 140px;
+    height: 40px !important;
+    color: #fff;
+    background: #EEBF79 !important;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -o-align-items: center;
+    -ms-align-items: center;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px !important;
+}
+.actions ul li:nth-child(2), .actions ul li:last-child{
+    padding-right: 25px !important;
+}
+.btn-form{
+    width: 140px;
+    height: 40px !important;
+    color: #fff !important;
+    background: #EEBF79 !important;
+    display: flex;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -o-align-items: center;
+    -ms-align-items: center;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px !important;
+    font-size: 14px ;
+    font-weight: 500;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    background: #F1F3F4;
+    width: fit-content;
+    padding: 5px 15px;
+  }
+  .wrapper span{
+    text-align: center;
+   
+    cursor: pointer;
+    user-select: none;
+    
+  }
+  .wrapper span.num{
+    font-size: 30px;
+    pointer-events: none;
+    margin: 0px 20px;
+    width: 70px;
+    font-weight: 600;
+  }
+  .minus{
+    height: 30px;
+    width: 30px;
+    background-color: #EEBF79;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 0px;
+    padding: 0px;
+    cursor: pointer;
+  }
+  .plus{
+    height: 30px;
+    width: 30px;
+    background-color: #EEBF79;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 0px;
+    padding: 0px;
+    cursor: pointer;
+  }
+  .select2{
+    width: 100% !important;
+  }
+  .select2-container .select2-selection--single .select2-selection__rendered{
+    background-color: white !important;
+    border-radius: 3px !important;
+    font-size: 16px !important;
+    padding: 10px 15px !important; 
+    border: 1px solid #ebebeb !important;
+    font-weight: 500 !important;
+    height: auto !important;
+  }
+  .select2-container--default .select2-selection--single{
+    background-color: transparent;
+    border: 1px solid white !important;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    top: 90% !important;
+    left: -10% !important;
+  }
+
+  
