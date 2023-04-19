@@ -117,3 +117,8 @@ font-family: 'Poppins';
 .textyellow{
     color: #EEBF79 !important;
 }
+.bg-yellow{
+    background-color: #EEBF79 ;
+    color: white;
+    padding: 10px;
+}
